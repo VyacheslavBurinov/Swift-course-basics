@@ -11,7 +11,8 @@ print(s)
 //площадь найдена
 
 let c = sqrt(Double(a^2+b^2))
-print(NSString(format:"%.2f", c))
+print(String(format:"%.2f", c))
 //Нашли гипотенузу
-let p = Double(a*b+b*c+a*c)
-print(NSString(format:"%.2f", p))
+let p = Double(a*b+b*Int(c)+a*Int(c))
+print(p)
+//Нашли периметр
