@@ -12,3 +12,7 @@ for _ in 1...count {
 }
 
 print(numberArray)
+
+var delNumbers = numberArray.filter {$0 % 2 == 0 || $0 % 3 == 0}
+
+print(delNumbers)
